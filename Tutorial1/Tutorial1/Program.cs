@@ -11,4 +11,13 @@ class Animal
     {
         this.name = name; 
     }
+
+    public string getName () {return name;}
+
+    static void Main(string[] args)
+    {
+        Animal myAnimal = new Animal("Gibbs");
+        Console.WriteLine(myAnimal.getName());
+    }
+
 }
